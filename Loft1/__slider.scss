@@ -1,0 +1,49 @@
+.slider {
+    .slider-content {
+        background-image: url(img/bacraund.jpg);
+        width: 1140px;
+        height: 450px;
+        flex-shrink: 0;
+        margin-top: 30px;
+
+    }
+
+    .slider-blog {
+       padding: 100px;
+    }
+
+    .slider-title {        
+        width: 216px;
+        color: #3C3C3C;
+        font-size: 50px;
+        font-family: Playfair Display;
+        font-weight: 700;
+        line-height: 105.3%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .silder-text {
+        margin-top: 15px;
+        color: #343434;
+        font-size: 20px;
+        font-family: Roboto Condensed;
+        line-height: 140.8%;
+        letter-spacing: 0.32px;
+    }
+
+    .slider-btn {
+        margin-top: 20px;
+        width: 163px;
+        height: 45px;
+        flex-shrink: 0;
+        font-family: Roboto Condensed;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 8px;
+    }
+  
+
+}

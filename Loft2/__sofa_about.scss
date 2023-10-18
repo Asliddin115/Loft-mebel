@@ -1,0 +1,59 @@
+.sofa-about {
+   
+
+    .about_title {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .about_title_text1 {
+        padding: 10px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-bottom: solid 4px #245462;
+        margin-right: 50px;
+    }
+
+    .about_title_text2 {
+        margin-right: 50px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .about_list1_text {
+        margin-top: 27px;
+        color: #686868;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .about_lists {
+        display: flex;
+     
+    }
+    .about_list2{
+        margin-left: 150px;
+    }
+
+    .about_list2_text {
+        margin-top: 23px;
+        color: #686868;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

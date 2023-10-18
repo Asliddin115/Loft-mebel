@@ -1,0 +1,317 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar .navbar-content {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar_input {
+  width: 280px;
+  height: 40px;
+  border: 0.5px solid #E6E6E6;
+  outline: none;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 15px;
+}
+.navbar .main-cont2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loft-menu .menu-contents {
+  margin-top: 20px;
+  padding: 25px;
+  width: 1190px;
+  height: 70px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.loft-menu .loft-menu-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loft-menu .menu-content {
+  display: flex;
+  color: #414141;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.loft-menu .menu-text {
+  color: #414141;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-left: 10px;
+}
+.loft-menu .sell {
+  color: red;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-left: 10px;
+}
+.loft-menu #checkbox {
+  display: none;
+}
+.loft-menu .toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: 0.3s;
+}
+.loft-menu .bars {
+  width: 60%;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+  transition-duration: 0.3s;
+}
+.loft-menu #checkbox:checked + .toggle #bar2 {
+  transform: translateY(14px) rotate(60deg);
+  margin-left: 0;
+  transform-origin: right;
+  transition-duration: 0.3s;
+  z-index: 2;
+}
+.loft-menu #checkbox:checked + .toggle #bar1 {
+  transform: translateY(28px) rotate(-60deg);
+  transition-duration: 0.3s;
+  transform-origin: left;
+  z-index: 1;
+}
+.loft-menu #checkbox:checked + .toggle {
+  transform: rotate(-90deg);
+}
+
+.text-menu .menu-list {
+  margin-top: 30px;
+  display: flex;
+  color: #969696;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form_content .form_title {
+  margin-top: 40px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.form_content .form_elements {
+  display: flex;
+}
+.form_content .form_mails {
+  font-family: Roboto;
+  margin-top: 40px;
+}
+.form_content .form_name {
+  color: #969696;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form_content .form_input_name {
+  width: 207px;
+  height: 38px;
+  flex-shrink: 0;
+  background: #FCFCFC;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.07) inset;
+  border: none;
+  border-radius: none;
+  outline: none;
+}
+.form_content .form_massage_text {
+  margin-top: 10px;
+  color: #969696;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form_content .form_massage_input {
+  width: 457px;
+  height: 142px;
+  flex-shrink: 0;
+  background: #FCFCFC;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.07) inset;
+  outline: none;
+  border: none;
+}
+.form_content .form_buttons {
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+.form_content .form_button1 {
+  width: 149px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: normal;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.form_content .form_button2 {
+  width: 106px;
+  height: 40px;
+  flex-shrink: 0;
+  background: var(--main-color, #245462);
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500px;
+  line-height: normal;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.form_content .form_about {
+  margin: 50px 123px;
+}
+.form_content .form_about_call {
+  display: flex;
+  justify-content: space-between;
+}
+.form_content .form_about_phone {
+  color: var(--text-color, #414141);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.688%;
+  cursor: pointer;
+}
+.form_content .form_about_insta {
+  margin-top: 23px;
+}
+.form_content .instagram {
+  color: var(--text-color, #414141);
+  text-align: left;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.688%;
+  cursor: pointer;
+}
+.form_content .form_about_adress {
+  margin-top: 30px;
+}
+.form_content .about_adress {
+  color: var(--text-color, #414141);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 126.688%;
+  cursor: pointer;
+}
+
+.yandex_map {
+  margin-top: 50px;
+}
+.yandex_map .map_title {
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.footer .footer_content {
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.03);
+}
+.footer .footer_nav {
+  display: flex;
+}
+.footer .footer_titel1 {
+  margin-top: 25px;
+}
+.footer .footer_titel2 {
+  margin-top: 98px;
+}
+.footer .nav_menu {
+  margin-top: 20px;
+}
+.footer .nav_menu2 {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+.footer .footer_nav3 {
+  margin-top: 50px;
+  width: 250px;
+}
+.footer .lm {
+  color: #000;
+  font-size: 42px;
+  font-family: Roboto;
+  font-weight: 900;
+  margin-left: 200px;
+}
+.footer .adress {
+  color: var(--text-color, #414141);
+  text-align: right;
+  font-size: 14px;
+  font-family: Roboto;
+}/*# sourceMappingURL=style.css.map */

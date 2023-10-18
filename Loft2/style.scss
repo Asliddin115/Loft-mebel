@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  @import "__navbar.scss";
+  @import "__menu.scss";
+  @import "__text-menu.scss";
+  @import "__sofa.scss";
+  @import "__sofa_about.scss";
+  @import "__sofa_price.scss";
+  @import "__footer_nav.scss";

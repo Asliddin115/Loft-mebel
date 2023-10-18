@@ -1,0 +1,31 @@
+.loft-main {
+    background-color: #313131;
+    height: 38px;
+    color: #fbfbfb;
+
+    .main-contents {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-cont1 {
+        padding: 8px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-cont2 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
